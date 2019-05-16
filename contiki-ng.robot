@@ -18,7 +18,7 @@ Create Machine
     Execute Command           $bin=@${CURDIR}/${elf}
     Execute Command           i @scripts/single-node/cc2538.resc
     Execute Command           showAnalyzer ${UART} Antmicro.Renode.Analyzers.LoggingUartAnalyzer
-    ${tester}=                Create Terminal Tester    ${UART}    machine=${name}
+    ${tester}=                Create Terminal Tester    ${UART}    machine=${name}  timeout=120
 
     [return]                  ${tester}
 
