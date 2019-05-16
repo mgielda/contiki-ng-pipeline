@@ -1,0 +1,4 @@
+#ifndef PROJECT_CONF_H
+#define PROJECT_CONF_H
+#define RPL_CONF_DELAY_BEFORE_LEAVING 5
+#endif
